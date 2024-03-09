@@ -1,5 +1,6 @@
-import crawler_app.crawler
+
 import crawler_app.scrapper
+import crawler_app.crawler
 import mysql.connector
 
 
