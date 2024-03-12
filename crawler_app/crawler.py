@@ -31,10 +31,7 @@ def save_html(html: str, filename: str) -> None:
         logger.error(f"Failed to save HTML: {filename}")
         logger.exception(e)
 
-        
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(html)
-
+    
 
 if __name__ == '__main__':
     url = "https://www.jarcomputers.com/Laptopi_cat_2.html?ref=c_1"
